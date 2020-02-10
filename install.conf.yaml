@@ -1,0 +1,23 @@
+- defaults:
+    link:
+        relink: true
+
+- shell:
+    - [bash get-oh-my-zsh.sh]
+
+- link:
+    ~/.config/nvim:
+        create: true
+        path: nvim/*
+        glob: true
+    ~/.zshrc:
+        path: zshrc
+    ~/.oh-my-zsh/custom:
+        create: true
+        path: oh-my-zsh-custom/*
+        glob: true
+        force: true
+    "~/.config/Code/User/":
+        path: vscode/*
+        create: true
+        glob: true

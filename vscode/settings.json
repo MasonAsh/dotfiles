@@ -1,0 +1,75 @@
+{
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["k", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<leader>", "f"],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": ["<leader>", "b"],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": ["K"],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "<tab>"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<S-tab>"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+    ],
+    "vim.leader": "<space>",
+    "vim.autoindent": true,
+    "rust.mode": "legacy",
+    "rust.rustup": {
+        "nightlyToolchain": "nightly-x86_64-unknown-linux-gnu"
+    },
+    "workbench.colorTheme": "Nord",
+    // "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "[haskell]": {
+        "editor.tabSize": 2,
+        "editor.useTabStops": false
+    },
+    "window.zoomLevel": 0,
+    "debug.allowBreakpointsEverywhere": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "editor.renderWhitespace": "selection",
+    "editor.lineNumbers": "relative",
+    "[org]": {
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 80
+    },
+}
