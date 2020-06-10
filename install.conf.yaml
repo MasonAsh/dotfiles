@@ -27,3 +27,5 @@
     ~/.local/bin/fasd:
         create: true
         path: fasd/fasd
+    ~/.fix-the-freaking-home-and-end-keys:
+        path: fix-the-freaking-home-and-end-keys
