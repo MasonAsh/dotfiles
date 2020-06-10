@@ -14,3 +14,6 @@
 [submodule "shell-safe-rm"]
 	path = shell-safe-rm
 	url = https://github.com/kaelzhang/shell-safe-rm
+[submodule "oh-my-zsh-custom/plugins/zsh-history-substring-search"]
+	path = oh-my-zsh-custom/plugins/zsh-history-substring-search
+	url = https://github.com/zsh-users/zsh-history-substring-search
