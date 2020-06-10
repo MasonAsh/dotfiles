@@ -30,3 +30,5 @@
         path: fasd/fasd
     ~/.fix-the-freaking-home-and-end-keys:
         path: fix-the-freaking-home-and-end-keys
+    ~/.tmux.conf:
+        path: tmux.conf
