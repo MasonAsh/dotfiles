@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/mason/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -119,15 +119,15 @@ alias e='nvim'
 alias open="xdg-open"
 alias rm='safe-rm'
 
-export PATH=/home/mason/.local/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
 eval "$(fasd --init auto)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-export LUA_PATH='/home/mason/.luarocks/share/lua/5.3/?.lua;/home/mason/.luarocks/share/lua/5.3/?/init.lua;/usr/local/share/lua/5.3/?.lua;/usr/local/share/lua/5.3/?/init.lua;/usr/share/lua/5.3/?.lua;/usr/share/lua/5.3/?/init.lua;/usr/lib/lua/5.3/?.lua;/usr/lib/lua/5.3/?/init.lua;./?.lua;./?/init.lua'
-export LUA_CPATH='/home/mason/.luarocks/lib/lua/5.3/?.so;/usr/local/lib/lua/5.3/?.so;/usr/lib/lua/5.3/?.so;/usr/lib/lua/5.3/loadall.so;./?.so'
-export PATH=/home/mason/.luarocks/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/mason/.fzf/bin:/home/mason/bin:/home/mason/.gem/ruby/2.6.0/bin:$PATH
+export LUA_PATH='$HOME/.luarocks/share/lua/5.3/?.lua;$HOME/.luarocks/share/lua/5.3/?/init.lua;/usr/local/share/lua/5.3/?.lua;/usr/local/share/lua/5.3/?/init.lua;/usr/share/lua/5.3/?.lua;/usr/share/lua/5.3/?/init.lua;/usr/lib/lua/5.3/?.lua;/usr/lib/lua/5.3/?/init.lua;./?.lua;./?/init.lua'
+export LUA_CPATH='$HOME/.luarocks/lib/lua/5.3/?.so;/usr/local/lib/lua/5.3/?.so;/usr/lib/lua/5.3/?.so;/usr/lib/lua/5.3/loadall.so;./?.so'
+export PATH=$HOME/.luarocks/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.fzf/bin:$HOME/bin:$HOME/.gem/ruby/2.6.0/bin:$PATH
 export PATH=/opt/cuda/bin/:$PATH
 
 bindkey -M emacs '^P' history-substring-search-up
