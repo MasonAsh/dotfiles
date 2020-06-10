@@ -59,6 +59,8 @@ ZSH_THEME="robbyrussell"
 
 export NVM_LAZY_LOAD=true
 
+export ZSH_DISABLE_COMPFIX=true
+
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
