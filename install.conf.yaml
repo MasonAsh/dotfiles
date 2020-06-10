@@ -21,5 +21,9 @@
         path: vscode/*
         create: true
         glob: true
-    ~/.bin/safe-rm:
+    ~/.local/bin/safe-rm:
+        create: true
         path: shell-safe-rm/bin/rm.sh
+    ~/.local/bin/fasd:
+        create: true
+        path: fasd/fasd

@@ -119,6 +119,8 @@ alias e='nvim'
 alias open="xdg-open"
 alias rm='safe-rm'
 
+export PATH=/home/mason/.local/bin:$PATH
+
 eval "$(fasd --init auto)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -127,8 +129,6 @@ export LUA_PATH='/home/mason/.luarocks/share/lua/5.3/?.lua;/home/mason/.luarocks
 export LUA_CPATH='/home/mason/.luarocks/lib/lua/5.3/?.so;/usr/local/lib/lua/5.3/?.so;/usr/lib/lua/5.3/?.so;/usr/lib/lua/5.3/loadall.so;./?.so'
 export PATH=/home/mason/.luarocks/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/mason/.fzf/bin:/home/mason/bin:/home/mason/.gem/ruby/2.6.0/bin:$PATH
 export PATH=/opt/cuda/bin/:$PATH
-
-export PATH=/home/mason/.local/bin:$PATH
 
 bindkey -M emacs '^P' history-substring-search-up
 bindkey -M emacs '^N' history-substring-search-down
