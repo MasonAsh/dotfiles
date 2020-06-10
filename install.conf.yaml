@@ -21,3 +21,5 @@
         path: vscode/*
         create: true
         glob: true
+    ~/.bin/safe-rm:
+        path: shell-safe-rm/bin/rm.sh

@@ -11,3 +11,6 @@
 [submodule "oh-my-zsh-custom/plugins/zsh-nvm"]
 	path = oh-my-zsh-custom/plugins/zsh-nvm
 	url = https://github.com/lukechilds/zsh-nvm
+[submodule "shell-safe-rm"]
+	path = shell-safe-rm
+	url = https://github.com/kaelzhang/shell-safe-rm
