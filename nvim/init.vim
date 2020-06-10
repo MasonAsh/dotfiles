@@ -90,7 +90,8 @@ Plug 'xolox/vim-misc'
 Plug 'xolox/vim-notes'
 " Collaborative editing
 Plug 'floobits/floobits-neovim'
-
+" One Dark theme
+Plug 'joshdick/onedark.vim'
 call plug#end()
 
 " Automatically install missing plugins on startup
@@ -107,7 +108,7 @@ syntax on
 
 " set t_Co=256
 
-colorscheme PaperColor
+colorscheme onedark
 
 " Remap leader key to space
 let mapleader = " "
