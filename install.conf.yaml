@@ -4,6 +4,7 @@
 
 - shell:
     - [bash get-oh-my-zsh.sh]
+    - [git submodule update --init --recursive]
 
 - link:
     ~/.config/nvim:
