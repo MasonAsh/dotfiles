@@ -118,6 +118,8 @@ alias e='nvim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias open="xdg-open"
 alias rm='safe-rm'
+alias du='du -h'
+alias df='df -h'
 
 export PATH=$HOME/.local/bin:$PATH
 
