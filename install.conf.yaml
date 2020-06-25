@@ -32,7 +32,13 @@
         path: fix-the-freaking-home-and-end-keys
     ~/.tmux.conf:
         path: tmux.conf
+    ~/.tmux.windows:
+        path: tmux.windows
     ~/.tmux-themepack:
         create: true
         path: tmux-themepack/*
+        glob: true
+    ~/.config/kitty:
+        create: true
+        path: kitty/*
         glob: true

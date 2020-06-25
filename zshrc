@@ -57,7 +57,7 @@ ZSH_THEME="bira"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-export NVM_LAZY_LOAD=true
+# export NVM_LAZY_LOAD=true
 
 export ZSH_DISABLE_COMPFIX=true
 
@@ -149,3 +149,7 @@ alias gitadd="git add -A"
 export RDM=/usr/local/bin/rdm
 
 source ~/.profile
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8

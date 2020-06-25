@@ -1,0 +1,1 @@
+bind -n M-w run -b "tmux show-buffer | clip.exe"

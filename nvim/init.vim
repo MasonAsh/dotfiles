@@ -89,7 +89,7 @@ Plug 'xolox/vim-misc'
 " Note taking
 Plug 'xolox/vim-notes'
 " Collaborative editing
-Plug 'floobits/floobits-neovim'
+" Plug 'floobits/floobits-neovim'
 " One Dark theme
 Plug 'joshdick/onedark.vim'
 call plug#end()
