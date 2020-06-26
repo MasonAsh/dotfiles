@@ -149,7 +149,6 @@ bindkey -M viins 'kj' vi-cmd-mode
 source ~/.fix-the-freaking-home-and-end-keys
 
 alias yay="yay --sudoloop"
-alias ls="ls -lA --color"
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.0/extras/CUPTI/lib64
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.0/lib64
