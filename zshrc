@@ -4,6 +4,18 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# A bit strange, but tmux will use vim keys by default if
+# EDITOR is set to vim (or neovim) so make sure this stays
+# near the top.
+export EDITOR='nvim'
+export VISUAL='nvim'
+alias e='nvim'
+
+# Automatically open tmux given the right conditions.
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -90,10 +102,6 @@ source ~/.zsh-async/async.zsh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
-
-export EDITOR='nvim'
-export VISUAL='nvim'
-alias e='nvim'
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
