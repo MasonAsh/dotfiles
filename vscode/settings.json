@@ -1,31 +1,32 @@
 {
     "vim.insertModeKeyBindings": [
         {
-            "before": ["j", "k"],
-            "after": ["<Esc>"]
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         },
         {
-            "before": ["k", "j"],
-            "after": ["<Esc>"]
+            "before": [
+                "k",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
     ],
     "vim.normalModeKeyBindings": [
         {
-            "before": ["<leader>", "f"],
+            "before": [
+                "<leader>",
+                "f"
+            ],
             "commands": [
                 "workbench.action.quickOpen"
-            ]
-        },
-        {
-            "before": ["<leader>", "b"],
-            "commands": [
-                "workbench.action.quickOpen"
-            ]
-        },
-        {
-            "before": ["K"],
-            "commands": [
-                "editor.action.showHover"
             ]
         },
         {
@@ -44,32 +45,90 @@
                 "workbench.action.previousEditor"
             ]
         },
+        {
+            "before": [
+                "S"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "search.action.openNewEditor"
+            ]
+        },
     ],
     "vim.leader": "<space>",
-    "vim.autoindent": true,
-    "rust.mode": "legacy",
-    "rust.rustup": {
-        "nightlyToolchain": "nightly-x86_64-unknown-linux-gnu"
-    },
-    "workbench.colorTheme": "Nord",
-    // "workbench.activityBar.visible": false,
-    "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": false,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 14,
-    "editor.fontLigatures": true,
-    "[haskell]": {
-        "editor.tabSize": 2,
-        "editor.useTabStops": false
-    },
-    "window.zoomLevel": 0,
-    "debug.allowBreakpointsEverywhere": true,
-    "C_Cpp.updateChannel": "Insiders",
-    "python.dataScience.sendSelectionToInteractiveWindow": true,
-    "editor.renderWhitespace": "selection",
-    "editor.lineNumbers": "relative",
+    "workbench.colorTheme": "Community Material Theme Darker",
+    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     "[org]": {
         "editor.wordWrap": "bounded",
         "editor.wordWrapColumn": 80
     },
+    "java.help.firstView": "gettingStarted",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.renderWhitespace": "selection",
+    "editor.lineNumbers": "relative",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "python.jediEnabled": false,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "vim.useSystemClipboard": true,
+    "glassit.alpha": 255,
+    "debug.onTaskErrors": "showErrors",
+    "editor.formatOnSave": true,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "window.restoreWindows": "none",
+    "terminal.integrated.commandsToSkipShell": [
+        "-workbench.action.quickOpen"
+    ],
+    "debug.allowBreakpointsEverywhere": true,
+    "julia.enableTelemetry": true,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {},
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "default",
+    "gitlens.views.repositories.files.layout": "tree",
+    "java.semanticHighlighting.enabled": true,
+    "workbench.list.smoothScrolling": true,
+    "terminalEditors.shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminalEditors.ignoredKeys": [
+        "ctrl+p",
+        "ctrl+shift+p",
+        "ctrl+n",
+    ],
+    "terminalEditors.ignoredKeysHack": [
+        {
+            "key": "ctrl+h",
+            "command": "workbench.action.navigateLeft"
+        },
+        {
+            "key": "ctrl+l",
+            "command": "workbench.action.navigateRight"
+        },
+        {
+            "key": "ctrl+k",
+            "command": "workbench.action.navigateUp"
+        },
+        {
+            "key": "ctrl+j",
+            "command": "workbench.action.navigateDown"
+        }
+    ]
 }
