@@ -72,7 +72,7 @@
         },
     ],
     "vim.leader": "<space>",
-    "workbench.colorTheme": "Community Material Theme Darker",
+    "workbench.colorTheme": "Shades of Purple",
     //"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     "[org]": {
         "editor.wordWrap": "bounded",
@@ -107,7 +107,7 @@
     "gitlens.views.repositories.files.layout": "tree",
     "java.semanticHighlighting.enabled": true,
     "workbench.list.smoothScrolling": true,
-    "terminalEditors.shellExecutable": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminalEditors.shellExecutable": "/usr/bin/zsh",
     "terminalEditors.ignoredKeys": [
         "ctrl+p",
         "ctrl+shift+p",
@@ -130,5 +130,6 @@
             "key": "ctrl+j",
             "command": "workbench.action.navigateDown"
         }
-    ]
+    ],
+    "C_Cpp.updateChannel": "Insiders"
 }

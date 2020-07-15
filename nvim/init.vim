@@ -257,6 +257,10 @@ set inccommand=split
 
 packadd termdebug
 
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+endif
+
 " END GENERAL
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
